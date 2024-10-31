@@ -42,7 +42,7 @@
               <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#reservation" class="nav__link">Book a table</a>
+              <a href="#book" class="nav__link">Book a table</a>
             </li>
             <li>
               <a href="#menu" class="nav__link">Menu</a>
@@ -52,34 +52,74 @@
             </li>
           </ul>
         </nav>
+
+        <!-- Header Title and Description -->
+        <h1 class="header__title">Welcome to Our Coffee Shop</h1>
+        <p class="header__description">
+          Enjoy our cozy ambiance with freshly brewed coffee and delicious
+          snacks!
+        </p>
+
+        <!-- Header Image -->
+        <img
+          src="./images/header_image.jpg"
+          alt="Coffee shop interior"
+          class="header__image"
+        />
       </header>
 
       <!-- Main Content Section -->
       <main class="content">
+        <!-- Recipes Section -->
         <section class="recipes" id="recipes">
-          <h2>Our Recipes</h2>
-          <!-- Recipes content goes here -->
+          <h2 class="recipes__title">Our Favorite Recipes</h2>
+          <p class="recipes__subtitle">
+            Discover the secret recipes of our most popular drinks.
+          </p>
+          <div class="recipes__videos">
+            <iframe
+              class="recipes__iframe"
+              src="https://www.youtube.com/embed/example1"
+              title="Recipe video 1"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="recipes__iframe"
+              src="https://www.youtube.com/embed/example2"
+              title="Recipe video 2"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
 
-        <section class="reservation" id="reservation">
+        <!-- Reservation Section -->
+        <section class="reservation" id="book">
           <h2>Book a Table</h2>
-          <!-- Reservation content goes here -->
+          <p>
+            Reserve a spot at our coffee shop and enjoy a personalized
+            experience.
+          </p>
         </section>
 
+        <!-- Menu Section -->
         <section class="menu" id="menu">
           <h2>Our Menu</h2>
-          <!-- Menu content goes here -->
+          <p>Browse our menu to find your favorite coffee and snacks.</p>
         </section>
 
+        <!-- About Section -->
         <section class="about" id="about">
           <h2>About Us</h2>
-          <!-- About content goes here -->
+          <p>
+            Learn more about our story, our values, and our commitment to
+            quality.
+          </p>
         </section>
       </main>
 
       <!-- Footer Section -->
       <footer class="footer">
-        <!-- Footer content will go here -->
+        <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
       </footer>
     </div>
   </body>
