@@ -96,9 +96,12 @@
 
         <!-- Reservation Section -->
         <section class="reservation" id="book">
-          <h2>Book a Table</h2>
-          <form class="reservation__form form">
+          <h2 class="reservation__title">Book a Table</h2>
+
+          <!-- Form with corrected class name -->
+          <form class="reservation__form">
             <fieldset class="form__fieldset">
+              <!-- Name Label and Input -->
               <label for="name" class="form__label">
                 Name *
                 <input
@@ -109,6 +112,8 @@
                   required
                 />
               </label>
+
+              <!-- Guests Label and Input -->
               <label for="guest-number" class="form__label">
                 Number of guests *
                 <input
@@ -121,6 +126,8 @@
                   required
                 />
               </label>
+
+              <!-- Date & Time Label and Input -->
               <label for="reservation-date" class="form__label">
                 Date & Time *
                 <input
@@ -130,7 +137,27 @@
                   required
                 />
               </label>
-              <!-- Add additional form fields as needed -->
+
+              <!-- Email Label and Input -->
+              <label for="email" class="form__label">
+                Email *
+                <input
+                  id="email"
+                  class="form__input"
+                  type="email"
+                  placeholder="your.email@example.com"
+                  required
+                />
+              </label>
+
+              <!-- Agreement Checkbox -->
+              <label for="agree" class="form__label form__label--checkbox">
+                <input id="agree" type="checkbox" required />
+                I agree to the terms and conditions
+              </label>
+
+              <!-- Submit Button -->
+              <button type="submit" class="form__button">Reserve Now</button>
             </fieldset>
           </form>
         </section>
