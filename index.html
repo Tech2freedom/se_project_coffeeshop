@@ -97,68 +97,35 @@
         <!-- Reservation Section -->
         <section class="reservation" id="book">
           <h2 class="reservation__title">Book a Table</h2>
-
-          <!-- Form with corrected class name -->
-          <form class="reservation__form">
+          <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <!-- Name Label and Input -->
               <label for="name" class="form__label">
                 Name *
-                <input
-                  id="name"
-                  class="form__input"
-                  type="text"
-                  placeholder="Name Surname"
-                  required
-                />
+                <input id="name" <!-- Added id to match for attribute -- />
+                class="form__input" type="text" placeholder="Name Surname"
+                required />
               </label>
-
-              <!-- Guests Label and Input -->
-              <label for="guest-number" class="form__label">
+              <label for="guests" class="form__label">
                 Number of guests *
-                <input
-                  id="guest-number"
-                  class="form__input"
-                  type="number"
-                  min="1"
-                  max="8"
-                  placeholder="1-8"
-                  required
-                />
+                <input id="guests" <!-- Added id to match for attribute -- />
+                class="form__input" type="number" min="1" max="8"
+                placeholder="1-8" required />
               </label>
-
-              <!-- Date & Time Label and Input -->
-              <label for="reservation-date" class="form__label">
-                Date & Time *
-                <input
-                  id="reservation-date"
-                  class="form__input"
-                  type="datetime-local"
-                  required
-                />
+              <label for="date-time" class="form__label">
+                Date & Time
+                <input id="date-time" <!-- Added id to match for attribute -- />
+                class="form__input" type="datetime-local" required />
               </label>
-
-              <!-- Email Label and Input -->
               <label for="email" class="form__label">
-                Email *
-                <input
-                  id="email"
-                  class="form__input"
-                  type="email"
-                  placeholder="your.email@example.com"
-                  required
-                />
+                Email
+                <input id="email" <!-- Added id to match for attribute -- />
+                class="form__input" type="email"
+                placeholder="example@domain.com" required />
               </label>
-
-              <!-- Agreement Checkbox -->
-              <label for="agree" class="form__label form__label--checkbox">
-                <input id="agree" type="checkbox" required />
-                I agree to the terms and conditions
-              </label>
-
-              <!-- Submit Button -->
-              <button type="submit" class="form__button">Reserve Now</button>
             </fieldset>
+            <button class="form__button" type="submit">
+              I Agree with the terms of use required
+            </button>
           </form>
         </section>
 
