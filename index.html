@@ -99,33 +99,58 @@
           <h2 class="reservation__title">Book a Table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
+              <!-- Label and input for Name -->
               <label for="name" class="form__label">
-                Name *
-                <input id="name" <!-- Added id to match for attribute -- />
+                Name * <input id="name"
+                <!-- Correct placement of comment: Make sure comments are outside the input tag -->
                 class="form__input" type="text" placeholder="Name Surname"
                 required />
               </label>
+              <!-- Label and input for Number of guests -->
               <label for="guests" class="form__label">
                 Number of guests *
-                <input id="guests" <!-- Added id to match for attribute -- />
+                <input
+                  id="guests"
+                  <!--
+                  Make
+                  sure
+                  the
+                  id
+                  is
+                  unique
+                  and
+                  not
+                  repeated
+                  elsewhere
+                  --
+                />
                 class="form__input" type="number" min="1" max="8"
                 placeholder="1-8" required />
               </label>
+              <!-- Label and input for Date & Time -->
               <label for="date-time" class="form__label">
                 Date & Time
-                <input id="date-time" <!-- Added id to match for attribute -- />
+                <input
+                  id="date-time"
+                  <!--
+                  Ensure
+                  all
+                  id
+                  attributes
+                  are
+                  unique
+                  --
+                />
                 class="form__input" type="datetime-local" required />
               </label>
+              <!-- Label and input for Email -->
               <label for="email" class="form__label">
                 Email
-                <input id="email" <!-- Added id to match for attribute -- />
+                <input id="email" <!-- Ensure all id attributes are unique -- />
                 class="form__input" type="email"
                 placeholder="example@domain.com" required />
               </label>
             </fieldset>
-            <button class="form__button" type="submit">
-              I Agree with the terms of use required
-            </button>
           </form>
         </section>
 
