@@ -103,27 +103,24 @@
                 Name *
                 <input
                   id="name"
-                  <!--
-                  Correcting
-                  the
-                  comment
-                  and
-                  ensuring
-                  id
-                  is
-                  unique
-                  --
+                  class="form__input"
+                  type="text"
+                  placeholder="Name Surname"
+                  required
                 />
-                class="form__input" type="text" placeholder="Name Surname"
-                required />
               </label>
               <label for="guests" class="form__label">
                 Number of guests *
-                <input id="guests" <!-- Make sure to avoid duplicate IDs -- />
-                class="form__input" type="number" min="1" max="8"
-                placeholder="1-8" required />
+                <input
+                  id="guests"
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                  required
+                />
               </label>
-              <!-- Make sure comments are placed outside the input elements -->
             </fieldset>
           </form>
         </section>
