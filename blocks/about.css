@@ -1,7 +1,7 @@
 .about {
   background-color: #0a2850;
   color: #fff;
-  font-family: "Inter" "arial" "sans serif";
+  font-family: "Inter", "Noto Serif";
   padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@
 
 .about__content {
   max-width: 660px;
-  font-family: "Noto Serif";
+  font-family: "Inter", "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -27,7 +27,7 @@
 }
 
 .about__paragraph {
-  font-family: "nota serif", "Times New Roman", Times;
+  font-family: "Inter", "Noto Serif";
   font-size: 20px;
   line-height: 30px;
 }

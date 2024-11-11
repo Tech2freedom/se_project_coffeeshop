@@ -1,6 +1,5 @@
 .form {
-  max-width: 285px;
-  margin: 0 auto;
+  max-width: 385px;
 }
 
 .form__fieldset {
@@ -9,39 +8,51 @@
   border: none;
 }
 
+.form__label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
 .form__input {
   display: block;
   width: 100%;
   padding: 15px 20px;
-  box-sizing: border-box;
   margin: 8px 0 32px;
   border: 1px solid #838383;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
+/* Button Styling with Hover State */
 .form__button {
-  border-radius: 4px;
+  display: inline-block;
   width: 100%;
-  border: none;
-  padding: 20px 0;
+  padding: 20px 0px;
   margin-bottom: 32px;
-  background-color: #2f80ed;
+  background-color: #1878dc; /* Default color */
   color: #fff;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.5s;
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .form__button:hover {
-  background-color: #1a5cb8;
+  background-color: #3f96f3; /* Hover color */
 }
 
-.form__checkbox {
-  border-radius: 2px;
-  width: 20px;
-  height: 20px;
-}
-
+/* Checkbox Styling with Text Alignment */
 .form__label_type_checkbox {
   display: flex;
   align-items: center;
   gap: 12px;
+  justify-content: center;
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: #1878dc; /* Custom checkbox color */
+  cursor: pointer;
+  border-radius: 2px;
 }
