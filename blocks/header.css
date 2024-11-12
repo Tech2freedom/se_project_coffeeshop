@@ -19,7 +19,7 @@
 
 .header__title {
   margin: 183px 0 0;
-  font-family: "Inter", "Noto Serif";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -34,7 +34,7 @@
 }
 
 .header__description {
-  font-family: "Noto Serif", "Inter";
+  font-family: "Inter";
   margin: 20px 0 0;
   font-size: 20px;
   line-height: 30px;
@@ -44,7 +44,7 @@
 .header__footer {
   margin-top: auto;
   display: flex;
-
+  align-items: flex-end;
   justify-content: space-between;
 }
 

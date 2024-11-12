@@ -1,9 +1,9 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter";
   padding: 60px 80px;
-  min-height: 200px; /* Adjust as needed */
+  min-height: 200px;
 }
 
 .footer__logo {
@@ -35,13 +35,18 @@
 }
 
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .footer__social-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__copyright {
-  margin: 0;
+  margin: 108px 0 0;
 }
