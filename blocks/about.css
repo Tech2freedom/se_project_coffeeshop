@@ -1,7 +1,7 @@
 .about {
   background-color: #0a2850;
   color: #fff;
-  font-family: "Inter", "Noto Serif";
+  font-family: "Inter", "Arial", "sans-serif";
   padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
@@ -15,11 +15,12 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 
 .about__content {
   max-width: 660px;
-  font-family: "Inter", "Noto Serif";
+  font-family: "Inter", "Arial", "sans-serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -27,9 +28,10 @@
 }
 
 .about__paragraph {
-  font-family: "Inter", "Noto Serif";
+  font-family: "Inter", "Arial", "sans-serif";
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
 }
 
 .about__circle {

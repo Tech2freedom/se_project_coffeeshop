@@ -10,8 +10,12 @@
 
 .form__label {
   display: block;
-  font-weight: 600;
+  font-weight: 500px;
   margin-bottom: 8px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20p
 }
 
 .form__input {
@@ -22,6 +26,13 @@
   border: 1px solid #838383;
   border-radius: 4px;
   box-sizing: border-box;
+  max-width: 385px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 /* Button Styling with Hover State */
@@ -36,6 +47,11 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Smooth transition */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__button:hover {
