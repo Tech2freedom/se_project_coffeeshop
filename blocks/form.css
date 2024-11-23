@@ -12,10 +12,10 @@
   display: block;
   font-weight: 500px;
   margin-bottom: 8px;
-  font-family: "Inter", "Arial", "sans-serif";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-size: 16px;
-  line-height: 20p
+  line-height: 20p;
 }
 
 .form__input {
@@ -64,6 +64,7 @@
   align-items: center;
   gap: 12px;
   justify-content: center;
+}
 
 .form__checkbox {
   width: 20px;

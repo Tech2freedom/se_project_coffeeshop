@@ -16,7 +16,7 @@
   gap: 20px;
   padding: 0;
   margin: 0;
-  font-family: "Inter", "Arial", "sans-serif";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -30,6 +30,7 @@
   cursor: pointer;
 }
 
-..nav__link:hover {
+.nav__link:hover {
   opacity: 0.5;
+  color: #e96e3a;
 }
