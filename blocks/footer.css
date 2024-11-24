@@ -44,6 +44,13 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+.footer__social-link:hover {
+  opacity: 0.5;
+  color: #c1c1c1;
 }
 
 .footer__copyright {

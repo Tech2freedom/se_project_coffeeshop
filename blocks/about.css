@@ -28,10 +28,11 @@
 }
 
 .about__paragraph {
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", "serif";
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+  gap: 20px 80px;
 }
 
 .about__circle {
