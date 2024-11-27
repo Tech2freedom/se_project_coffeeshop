@@ -5,10 +5,11 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/background_header.svg);
+  background-image: url("../images/background_header.svg");
   box-sizing: border-box;
+  position: relative;
   background-size: cover;
-  background-position: relative;
+  background-position: center;
 }
 
 .header__image {
@@ -40,6 +41,7 @@
   font-size: 60px;
   background-size: cover;
   background-position: center;
+  position: relative;
   line-height: 72px;
   letter-spacing: -0.6px;
 }

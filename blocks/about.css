@@ -25,14 +25,14 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 119px;
 }
 
 .about__paragraph {
-  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
-  gap: 20px 80px;
+  margin: 20 80 173px;
 }
 
 .about__circle {
